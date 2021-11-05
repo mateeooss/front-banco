@@ -1,0 +1,27 @@
+￼
+
+<header>
+    <navbar></navbar>
+</header>
+<main>
+    <!-- <table>
+    
+        <tr>
+           
+            
+            <th>teste</th>
+        </tr>
+        <tr ng-repeat="b in $ctrl.banco">
+            <td>{{b.credito}}</td>
+        </tr>
+        
+        </table> -->
+<div class="criar-conta">
+    <h1 style="margin-left: 39%;">cria conta</h1>
+    <input style=" border-radius: 5px; height: 35px; width: 350px; margin-top: 15%; margin-left: 28%;" name="nome" ng-model="banco.nome"  type="text" placeholder="nome">
+    <input style=" border-radius: 5px; height: 35px; width: 350px; margin-top: 1%; margin-left: 28%;" name="cpf" ng-model="banco.cpf"  type="text" placeholder="cpf">
+    <button  ui-sref="login" ng-click="$ctrl.cadastrarConta(banco)" style="border: 3px solid white; border-style: hidden; border-radius: 5px; color:white; background-color:cornflowerblue ; height: 35px; width: 350px; margin-top: 1%; margin-left: 28%;">confirmar</button>
+
+</div>
+
+</main>
